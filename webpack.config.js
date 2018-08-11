@@ -1,35 +1,35 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = {
   entry: [
-    "./client/src/Index.js"
+    './client/src/Index.js'
   ],
   output: {
-    filename: "bundle.js",
-    path: path.join(__dirname, "client/dist")
+    filename: 'bundle.js',
+    path: path.join(__dirname, 'client/dist')
   },
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         use: [
-          "babel-loader"
+          'babel-loader'
         ],
-        exclude: /node_modules|packeges/,
+        exclude: /node_modules|packages/,
       },
       {
         test: /\.scss$/,
         use: [{
-          loader: "style-loader"
+          loader:"style-loader"
         }, {
-          loader: "css-loader"
+          loader:"css-loader"
         }, {
-          loader: "sass-loader"
+          loader:"sass-loader"
         }]
       }
     ]
   },
   resolve: {
-    extensions: [".js", ".jsx"]
+    extensions: ['.js', '.jsx']
   }
 };
