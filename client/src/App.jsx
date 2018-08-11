@@ -1,7 +1,26 @@
-import React from "react";
-import Nav from "./components/nav-bar.jsx";
-import Carousel from "./components/carousel.jsx";
-import Last from "./components/last.jsx";
-import First from "./components/first.jsx";
-import Footer from "./components/footer.jsx";
-import Calculator from "./components/calc.jsx"
+
+import React,{ Component } from 'react';
+import Header from './components/navBar.jsx';
+import Slider from './components/carousel.jsx';
+import Second from './components/second.jsx';
+import Ready from './components/ready.jsx';
+import Footer from './components/footer.jsx';
+import Calculator from './components/calculator.jsx';
+
+import '../dist/stylesass.scss';
+
+export default class App extends Component {
+
+  render () {
+    return (
+
+      <div className="parent">
+        <Header/>
+        <Second/>
+        <Slider/>
+        <Calculator/>
+        <Ready/>
+        <Footer/>
+      </div>
+    )
+  }
