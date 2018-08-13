@@ -42,11 +42,11 @@ export default class Second extends Component {
               </Col>
               <Col md={4}>
                 <img src='https://i.imgur.com/URp3aUP.png'/>
-                <p>Cesar Tapial</p>
+                <p>Cesar Tapia</p>
               </Col>
               <Col md={4}>
                 <img src='https://i.imgur.com/c3oHd6c.png'/>
-                      <p>how is your day?</p>
+                      <p>how is your day</p>
               </Col>
             </Row>
           </Grid>
