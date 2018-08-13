@@ -64,12 +64,14 @@ $red:#ffffff;
       width: 10%;
       height: 5.2%;
       background-color: $request;
+      border-radius: 25px;
     }
 
     .input_box {
       position: relative;
       right: 460px;
       top: 90px;
+      border-radius: 25px;
     }
 
     .bottom_request {
@@ -79,6 +81,31 @@ $red:#ffffff;
       position: absolute;
       bottom: 32.8%;
       left:29.5%;
+      border-radius: 25px;
+    }
+
+    .blogging {
+      border-radius: 25px;
+    }
+
+    .info {
+      border-radius: 25px;
+    }
+
+    .associate {
+      border-radius: 25px;
+    }
+
+    .people {
+      border-radius: 25px;
+    }
+
+    .resolved {
+      border-radius: 25px;
+    }
+
+    .main {
+      border-radius: 25px;
     }
 
 }
