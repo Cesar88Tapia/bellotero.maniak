@@ -7,4 +7,4 @@
 - npm install
 - npm run dev
 - npm run start-dev
-- visit `localhost:3000/` 
+- visit `localhost:3000` 
